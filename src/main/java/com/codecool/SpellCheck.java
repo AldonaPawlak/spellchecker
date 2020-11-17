@@ -6,7 +6,7 @@ import java.io.PrintStream;
 public class SpellCheck
 {
     public static void main(final String[] args) {
-        String[] array = {"-wordlist", "wordlist.txt", "-better", "-quiet", "test.txt"};
+        String[] array = {"-wordlist", "wordlist.txt", "-better", "test.txt"};
         if (array.length == 0) {
             showUsageMessage();
             return;
